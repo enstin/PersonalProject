@@ -1,0 +1,106 @@
+ERROR - 2021-12-29 09:15:10 --> Column 'id_km' in group statement is ambiguous
+CRITICAL - 2021-12-29 09:15:10 --> Call to a member function getResultArray() on bool
+#0 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(34): App\Models\modkmasuk->tampilhistori()
+#1 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->view()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-29 10:37:32 --> Call to undefined method App\Models\modkmasuk::tambahitem
+#0 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(63): CodeIgniter\Model->__call('tambahitem', Array)
+#1 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->tambahitem()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-29 10:40:26 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+CRITICAL - 2021-12-29 10:40:26 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kp_adit\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(64): redirect('/draftkayumasuk')
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->tambahitem()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-12-29 10:46:28 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+CRITICAL - 2021-12-29 10:46:28 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kp_adit\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(64): redirect('/draftkayumasuk')
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->tambahitem()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-12-29 10:51:42 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+CRITICAL - 2021-12-29 10:51:42 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kp_adit\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(64): redirect('/draftkayumasuk')
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->tambahitem()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-12-29 10:53:45 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 10:54:33 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 10:54:41 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 11:04:00 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 16:12:08 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 16:12:12 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 16:13:02 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 16:13:49 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 16:16:22 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+ERROR - 2021-12-29 16:17:09 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_masuk`, CONSTRAINT `det_kayu_masuk_ibfk_1` FOREIGN KEY (`id_km`) REFERENCES `kayu_masuk` (`id_km`))
+CRITICAL - 2021-12-29 03:18:26 --> Undefined array key "nama"
+#0 C:\xampp\htdocs\kp_adit\app\Views\kmasuk\draftkmasuk.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/kmasuk/draftkm...', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(48): view('/kmasuk/draftkm...', Array)
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->viewdraft()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-29 03:20:55 -->  route cannot be found while reverse-routing.
+#0 C:\xampp\htdocs\kp_adit\system\HTTP\RedirectResponse.php(56): CodeIgniter\HTTP\Exceptions\HTTPException::forInvalidRedirectRoute('')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(840): CodeIgniter\HTTP\RedirectResponse->route(false)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(82): redirect('/draftkayumasuk')
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->edit('211229161138')
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2021-12-29 16:21:37 --> Duplicate entry '211229161138' for key 'PRIMARY'
+CRITICAL - 2021-12-29 03:31:16 --> Undefined array key "jumlah"
+#0 C:\xampp\htdocs\kp_adit\app\Views\barang\kayu.php(59): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 59)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/barang/kayu', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conmaster.php(31): view('/barang/kayu', Array)
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conmaster->viewkayu()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conmaster))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-29 03:44:39 --> Undefined array key "jumlah"
+#0 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(97): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 97)
+#1 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->simpandraft()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+ERROR - 2021-12-29 03:45:03 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2021-12-29 03:45:28 --> Unknown column 'jumlah' in 'field list'
+ERROR - 2021-12-29 03:46:18 --> Unknown column 'jumlah' in 'field list'

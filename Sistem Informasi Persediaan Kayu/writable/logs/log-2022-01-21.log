@@ -1,0 +1,29 @@
+CRITICAL - 2022-01-21 08:59:28 --> Invalid file: /kkeluar/kkeluar.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/kkeluar/kkelua...')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/kkeluar/kkelua...', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayukeluar.php(38): view('/kkeluar/kkelua...', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayukeluar->view()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayukeluar))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+ERROR - 2022-01-21 09:03:24 --> Unknown column 'id_detkm' in 'field list'
+ERROR - 2022-01-21 09:03:46 --> Unknown column 'id_detkm' in 'field list'
+ERROR - 2022-01-21 09:04:23 --> Unknown column 'id_detkm' in 'field list'
+ERROR - 2022-01-21 09:04:52 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_keluar`, CONSTRAINT `det_kayu_keluar_ibfk_1` FOREIGN KEY (`id_kk`) REFERENCES `kayu_keluar` (`id_kk`))
+ERROR - 2022-01-21 09:05:01 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_keluar`, CONSTRAINT `det_kayu_keluar_ibfk_1` FOREIGN KEY (`id_kk`) REFERENCES `kayu_keluar` (`id_kk`))
+ERROR - 2022-01-21 09:05:29 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_keluar`, CONSTRAINT `det_kayu_keluar_ibfk_1` FOREIGN KEY (`id_kk`) REFERENCES `kayu_keluar` (`id_kk`))
+ERROR - 2022-01-21 09:10:02 --> Cannot add or update a child row: a foreign key constraint fails (`kayu`.`det_kayu_keluar`, CONSTRAINT `det_kayu_keluar_ibfk_1` FOREIGN KEY (`id_kk`) REFERENCES `kayu_keluar` (`id_kk`))
+CRITICAL - 2022-01-21 09:15:39 --> Undefined array key "id_km"
+#0 C:\xampp\htdocs\kp_adit\app\Views\kkeluar\kkeluar.php(50): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 50)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/kkeluar/kkelua...', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conkayukeluar.php(38): view('/kkeluar/kkelua...', Array)
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayukeluar->view()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayukeluar))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

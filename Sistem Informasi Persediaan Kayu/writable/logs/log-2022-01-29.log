@@ -1,0 +1,34 @@
+CRITICAL - 2022-01-29 06:52:42 --> Invalid file: /laporan/kmasuk.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/laporan/kmasuk...')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/laporan/kmasuk', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conlaporan.php(26): view('/laporan/kmasuk', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlaporan->viewkmasuk()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlaporan))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2022-01-29 09:07:48 --> Undefined array key "ukuran"
+#0 C:\xampp\htdocs\kp_adit\app\Views\laporan\berkaskmasuk.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/laporan/berkas...', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conlaporan.php(122): view('/laporan/berkas...', Array)
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlaporan->cetakkmasuk()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlaporan))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2022-01-29 09:08:13 --> Undefined variable $dump
+#0 C:\xampp\htdocs\kp_adit\app\Views\laporan\berkaskmasuk.php(44): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 44)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/laporan/berkas...', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conlaporan.php(122): view('/laporan/berkas...', Array)
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlaporan->cetakkmasuk()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlaporan))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}

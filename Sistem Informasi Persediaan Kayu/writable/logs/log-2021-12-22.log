@@ -1,0 +1,282 @@
+CRITICAL - 2021-12-22 18:23:24 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:24:03 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:36 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:37 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:37 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:37 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:37 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:38 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:38 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:38 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:38 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:26:40 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:27:49 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+CRITICAL - 2021-12-22 18:28:16 --> session_destroy(): Trying to destroy uninitialized session
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'session_destroy...', 'C:\\xampp\\htdocs...', 22)
+#1 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(22): session_destroy()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->view()
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#7 {main}
+ERROR - 2021-12-22 18:29:50 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-22 18:29:50 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\kp_adit\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kp_adit\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\kp_adit\app\Models\modlogin.php(16): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(38): App\Models\modlogin->ceklogin(Array, Array)
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->ceklogin()
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2021-12-22 20:45:23 --> Error connecting to the database: Access denied for user ''@'localhost' (using password: NO)
+CRITICAL - 2021-12-22 20:45:23 --> Unable to connect to the database.
+Main connection [MySQLi]: Access denied for user ''@'localhost' (using password: NO)
+#0 C:\xampp\htdocs\kp_adit\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kp_adit\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\kp_adit\app\Models\modlogin.php(16): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(38): App\Models\modlogin->ceklogin(Array, Array)
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->ceklogin()
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+CRITICAL - 2021-12-22 20:46:10 --> Undefined array key "id_user"
+#0 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->ceklogin()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-22 20:46:29 --> Undefined array key "jabatan"
+#0 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(47): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 47)
+#1 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->ceklogin()
+#2 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#6 {main}
+CRITICAL - 2021-12-22 21:01:17 --> Undefined variable $pertahun
+#0 C:\xampp\htdocs\kp_adit\app\Views\dashboard.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/dashboard', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(30): view('/dashboard')
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->dashboard()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-22 21:02:19 --> Undefined variable $pertahun
+#0 C:\xampp\htdocs\kp_adit\app\Views\dashboard.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/dashboard', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(30): view('/dashboard')
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->dashboard()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-22 21:02:22 --> Undefined variable $pertahun
+#0 C:\xampp\htdocs\kp_adit\app\Views\dashboard.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/dashboard', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(30): view('/dashboard')
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->dashboard()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-22 21:02:22 --> Undefined variable $pertahun
+#0 C:\xampp\htdocs\kp_adit\app\Views\dashboard.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/dashboard', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(30): view('/dashboard')
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->dashboard()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-22 21:02:23 --> Undefined variable $pertahun
+#0 C:\xampp\htdocs\kp_adit\app\Views\dashboard.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/dashboard', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(30): view('/dashboard')
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->dashboard()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-22 21:02:23 --> Undefined variable $pertahun
+#0 C:\xampp\htdocs\kp_adit\app\Views\dashboard.php(163): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 163)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/dashboard', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(30): view('/dashboard')
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->dashboard()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-22 21:38:43 --> Invalid file: /barang/barang.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/barang/barang....')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/barang/barang', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conmaster.php(32): view('/barang/barang', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conmaster->viewkayu()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conmaster))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 21:38:53 --> Invalid file: /barang/barang.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/barang/barang....')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/barang/barang', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conmaster.php(32): view('/barang/barang', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conmaster->viewkayu()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conmaster))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-22 21:39:21 --> Undefined variable $data_barang
+#0 C:\xampp\htdocs\kp_adit\app\Views\barang\kayu.php(53): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 53)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/barang/kayu', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conmaster.php(32): view('/barang/kayu', Array)
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conmaster->viewkayu()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conmaster))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+CRITICAL - 2021-12-22 22:08:14 --> Invalid file: /barang/data_sub/user.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/barang/data_su...')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/barang/data_su...', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conmaster.php(377): view('/barang/data_su...', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conmaster->viewuser()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conmaster))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

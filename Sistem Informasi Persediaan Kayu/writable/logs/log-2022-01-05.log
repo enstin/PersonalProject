@@ -1,0 +1,14 @@
+ERROR - 2022-01-05 08:01:49 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2022-01-05 08:01:49 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\kp_adit\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kp_adit\system\Database\BaseBuilder.php(1527): CodeIgniter\Database\BaseConnection->query('SELECT COUNT(*)...', Array, false)
+#2 C:\xampp\htdocs\kp_adit\app\Models\modlogin.php(16): CodeIgniter\Database\BaseBuilder->countAllResults()
+#3 C:\xampp\htdocs\kp_adit\app\Controllers\conlogin.php(42): App\Models\modlogin->ceklogin(Array, Array)
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conlogin->ceklogin()
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conlogin))
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}
+ERROR - 2022-01-05 08:04:29 --> Unknown column 'stok' in 'field list'

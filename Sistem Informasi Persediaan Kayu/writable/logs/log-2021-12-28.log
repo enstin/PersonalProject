@@ -1,0 +1,50 @@
+CRITICAL - 2021-12-28 21:33:31 --> Invalid file: /draftkayumasukkmasuk.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/draftkayumasuk...')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/draftkayumasuk...', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(48): view('/draftkayumasuk...', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->viewdraft()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-28 21:33:36 --> Invalid file: /draftkayumasukkmasuk.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/draftkayumasuk...')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/draftkayumasuk...', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(48): view('/draftkayumasuk...', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->viewdraft()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-28 21:34:22 --> Invalid file: /kmasuk/draftmasuk.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/kmasuk/draftma...')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/kmasuk/draftma...', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(48): view('/kmasuk/draftma...', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->viewdraft()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-28 21:34:24 --> Invalid file: /kmasuk/draftmasuk.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/kmasuk/draftma...')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/kmasuk/draftma...', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(48): view('/kmasuk/draftma...', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->viewdraft()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}
+CRITICAL - 2021-12-28 21:34:36 --> Invalid file: /kmasuk/draftmasuk.php
+#0 C:\xampp\htdocs\kp_adit\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/kmasuk/draftma...')
+#1 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/kmasuk/draftma...', Array, true)
+#2 C:\xampp\htdocs\kp_adit\app\Controllers\conkayumasuk.php(48): view('/kmasuk/draftma...', Array)
+#3 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conkayumasuk->viewdraft()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conkayumasuk))
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#8 {main}

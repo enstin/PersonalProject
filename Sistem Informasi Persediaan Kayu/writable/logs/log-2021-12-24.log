@@ -1,0 +1,42 @@
+ERROR - 2021-12-24 05:52:44 --> Unknown column 'KY-001' in 'where clause'
+ERROR - 2021-12-24 05:52:55 --> Unknown column 'KY-001' in 'where clause'
+ERROR - 2021-12-24 05:53:56 --> Unknown column 'KY-001' in 'where clause'
+ERROR - 2021-12-24 05:55:59 --> Unknown column 'KY-001' in 'where clause'
+ERROR - 2021-12-24 05:56:21 --> Unknown column 'KY-001' in 'where clause'
+ERROR - 2021-12-24 05:59:17 --> Unknown column 'KY-001' in 'where clause'
+CRITICAL - 2021-12-24 06:33:17 --> Undefined array key "stok"
+#0 C:\xampp\htdocs\kp_adit\app\Views\barang\produk.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 55)
+#1 C:\xampp\htdocs\kp_adit\system\View\View.php(214): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\kp_adit\system\View\View.php(217): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\kp_adit\system\Common.php(1097): CodeIgniter\View\View->render('/barang/produk', Array, true)
+#4 C:\xampp\htdocs\kp_adit\app\Controllers\conmaster.php(107): view('/barang/produk', Array)
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conmaster->viewproduk()
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conmaster))
+#7 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#10 {main}
+ERROR - 2021-12-24 06:36:52 --> Unknown column 'kwalitas' in 'field list'
+ERROR - 2021-12-24 06:46:51 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2021-12-24 06:46:54 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2021-12-24 06:47:18 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2021-12-24 06:47:21 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2021-12-24 06:48:08 --> Column 'user' cannot be null
+ERROR - 2021-12-24 06:48:20 --> Column 'user' cannot be null
+ERROR - 2021-12-24 06:50:16 --> Column 'user' cannot be null
+ERROR - 2021-12-24 06:52:26 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2021-12-24 06:52:34 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2021-12-24 06:52:42 --> Unknown column 'id_user' in 'where clause'
+ERROR - 2021-12-24 20:09:20 --> Error connecting to the database: No connection could be made because the target machine actively refused it
+CRITICAL - 2021-12-24 20:09:20 --> Unable to connect to the database.
+Main connection [MySQLi]: No connection could be made because the target machine actively refused it
+#0 C:\xampp\htdocs\kp_adit\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\kp_adit\system\Database\BaseBuilder.php(1443): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\kp_adit\app\Models\modmaster.php(55): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\kp_adit\app\Controllers\conmaster.php(100): App\Models\modmaster->tampilproduk()
+#4 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(824): App\Controllers\conmaster->viewproduk()
+#5 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\conmaster))
+#6 C:\xampp\htdocs\kp_adit\system\CodeIgniter.php(318): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\kp_adit\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 C:\xampp\htdocs\kp_adit\system\Commands\Server\rewrite.php(43): require_once('C:\\xampp\\htdocs...')
+#9 {main}

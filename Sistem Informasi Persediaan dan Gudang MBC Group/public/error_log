@@ -1,0 +1,99 @@
+[27-Jul-2021 12:28:39 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:33:16 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:41:37 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:43:39 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:43:41 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:43:48 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:44:56 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:45:23 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:45:31 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:45:32 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100
+[27-Jul-2021 12:45:33 America/Chicago] PHP Fatal error:  Uncaught ErrorException: print_r(): Property access is not allowed yet in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', '/home/mbcgroup/...', 100, Array)
+#1 /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php(100): print_r(Object(App\Controllers\Conlogin), true)
+#2 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(308): include('/home/mbcgroup/...')
+#3 /home/mbcgroup/warehouse/vendor/codeigniter4/framework/system/Debug/Exceptions.php(174): CodeIgniter\Debug\Exceptions->render(Object(CodeIgniter\Database\Exceptions\DatabaseException), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(CodeIgniter\Database\Exceptions\DatabaseException))
+#5 {main}
+  thrown in /home/mbcgroup/warehouse/app/Views/errors/html/error_exception.php on line 100

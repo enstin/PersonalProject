@@ -1,0 +1,41 @@
+foreach ($insertdata as $masuk) {
+			if ($masuk['convert'] == 'con1') {
+				if ($masuk['stok_base'] == 0) {
+					$id_barang = [
+						'id_barang' => $masuk['id_barang']
+					];
+					$data_stok = [
+						'stok_base' => $masuk['detpemesanan.jumlah']
+					];
+					$this->model->masukstok($data_stok, $id_barang);
+				} else {
+					$id_barang = [
+						'id_barang' => $masuk['id_barang']
+					];
+					$data_stok = [
+						'stok_base' => $masuk['detpemesanan.jumlah'] + $masuk['barang_c1.stok_base']
+					];
+					$this->model->masukstok($data_stok, $id_barang);
+				}
+			} elseif ($masuk['convert'] == 'con2') {
+				if ($masuk['stok_con1'] == 0) {
+					$id_barang = [
+						'id_barang' => $masuk['id_barang']
+					];
+					$jumlahupdate = $masuk['detpemesanan.jumlah'] * $masuk['cr2'];
+					$data_stok = [
+						'stok_con1' => $jumlahupdate,
+					];
+					$this->model->masukstok($data_stok, $id_barang);
+				} else {
+					$id_barang = [
+						'id_barang' => $masuk['id_barang']
+					];
+					$jumlahupdate = $masuk['detpemesanan.jumlah'] * $masuk['cr2'];
+					$data_stok = [
+						'stok_con1' => $jumlahupdate,
+					];
+					$this->model->masukstok($data_stok, $id_barang);
+				}
+			}
+		};
